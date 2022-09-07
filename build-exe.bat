@@ -1,5 +1,6 @@
 @echo off
 color 0a
+cd /d %~dp0
 echo.
 set /p a="Enter the exe name : "
 if [%a%]==[] ( 
